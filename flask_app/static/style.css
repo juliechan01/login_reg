@@ -1,0 +1,49 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.head {
+    text-align: center;
+    margin: 20px;
+}
+
+.body {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.register > h2, .login > h2 {
+    margin-bottom: 15px;
+}
+
+.first, .last, .email, .pw, .cpw {
+    margin-bottom: 15px;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+.submit {
+  display: flex;
+  justify-items: center;
+  align-content: center;
+}
+
+.btn {
+  color: white;
+  background-color: royalblue;
+  border-color: black;
+  box-shadow: 3px 2px black;
+  padding: 5px;
+}
